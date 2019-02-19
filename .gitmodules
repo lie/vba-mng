@@ -1,0 +1,6 @@
+[submodule "ariawase"]
+	path = ariawase
+	url = https://github.com/lie/ariawase.git
+[submodule "doxygen-vb-filter"]
+	path = doxygen-vb-filter
+	url = https://github.com/lie/doxygen-vb-filter.git
