@@ -13,7 +13,7 @@ ifndef project
 	@echo "Parameter \`project\` required"
 	@echo "[usage] make init project=<new-project-name or /path/to/file.xlsm>"
 else
-	@echo "[init] project: "$(project)
+	$(INIT) $(project)
 endif
 
 rm:
