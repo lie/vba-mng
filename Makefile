@@ -1,4 +1,4 @@
-SCRIPT_DIR := ./script/
+SCRIPT_DIR := ./scripts
 INIT       := $(SCRIPT_DIR)/init.sh
 rm         := $(SCRIPT_DIR)/rm.sh
 doc        := $(SCRIPT_DIR)/doc.sh
