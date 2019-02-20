@@ -29,7 +29,7 @@ ifndef project
 	@echo "Parameter project required"
 	@echo "[usage] make doc project=<existing-project-name>"
 else
-	@echo "[doc] project: "$(project)
+	$(DOC_SH) $(project)
 endif
 
 .PHONY: init rm doc
