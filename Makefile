@@ -32,4 +32,10 @@ else
 	$(DOC_SH) $(project)
 endif
 
-.PHONY: init rm doc
+combine:
+	cscript //nologo ariawase/vbac.wsf combine
+
+decombine:
+	cscript //nologo ariawase/vbac.wsf decombine
+
+.PHONY: init rm doc combine decombine
