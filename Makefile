@@ -1,7 +1,7 @@
 SCRIPT_DIR := ./scripts
-INIT       := $(SCRIPT_DIR)/init.sh
-rm         := $(SCRIPT_DIR)/rm.sh
-doc        := $(SCRIPT_DIR)/doc.sh
+INIT_SH    := $(SCRIPT_DIR)/init.sh
+RM_SH      := $(SCRIPT_DIR)/rm.sh
+DOC_SH     := $(SCRIPT_DIR)/doc.sh
 
 usage:
 	@echo "[usage] make init project=<new-project-name or /path/to/file.xlsm>"
@@ -13,7 +13,7 @@ ifndef project
 	@echo "Parameter \`project\` required"
 	@echo "[usage] make init project=<new-project-name or /path/to/file.xlsm>"
 else
-	$(INIT) $(project)
+	$(INIT_SH) $(project)
 endif
 
 rm:
@@ -21,7 +21,7 @@ ifndef project
 	@echo "Parameter project required"
 	@echo "[usage] make rm project=<existing-project-name>"
 else
-	@echo "[rm] project: "$(project)
+	$(RM_SH) $(project)
 endif
 
 doc:
