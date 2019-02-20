@@ -6,7 +6,7 @@ VBAソースコード管理用ツール
 | できること（やりたいこと） | 実現方法 |
 | :------------------------- | :------- |
 | マクロ有効ExcelワークブックのVBAソースコードを、Gitで管理 | `ariawase/vbac.wsf` でエクスポート |
-| Doxygenで文書生成 | [`doxygen-vb-filter/vbfilter.awk`]を適用 |
+| Doxygenで文書生成 | `doxygen-vb-filter/vbfilter.awk` を適用 |
 
 ## 使い方
 
