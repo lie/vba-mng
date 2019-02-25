@@ -86,6 +86,6 @@ make combine
 - `init` について
 	- `file=<existing file>` と `project=<new project>` に分ける
 - 他
-	各`scripts/*.sh`のエラーメッセージのヘッダは、スクリプトファイル名でなくてもいい
-	`.dcm`に対応
-	`combine`、`decombine` の実行時、タイムスタンプを比較して、上書きされる前に警告を表示
+	- 各`scripts/*.sh`のエラーメッセージのヘッダは、スクリプトファイル名でなくてもいい
+	- `.dcm`に対応
+	- `combine`、`decombine` の実行時、タイムスタンプを比較して、上書きされる前に警告を表示
